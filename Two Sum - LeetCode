@@ -1,0 +1,17 @@
+#Here I have solved the 'Two Sum' problem from LeetCode in the simplest way possible
+#Please let me know if you find any loopholes in the code, thanks. :) 
+
+def twoSum(nums,target):
+  i = 0 
+  j = len(nums) - 1
+  if i != j:
+    if nums[i] + nums[i+1] == target:
+      #print('Success!')
+      
+      print( nums[i], nums[i+1])
+      print('index of first element is: ',nums.index(nums[i]),'\n','index of first element is: ',nums.index(nums[i+1]))
+      i + 1
+      
+    
+numbers = [2, 7, 11, 15]
+twoSum(numbers, 9)
